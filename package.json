@@ -2,12 +2,17 @@
   "name": "watcher",
   "version": "0.0.0",
   "description": "File watcher",
+  "license": "MIT",
   "engines": {
     "codebox": ">=1.0.0-alpha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tianmaying/package-watcher.git"
+  },
   "dependencies": {
-    "large-watcher": "0.2.1",
-    "lodash": "^4.13.1"
+    "lodash": "^4.13.1",
+    "watchr": "^2.6.0"
   },
   "main": "lib/main.js"
 }
